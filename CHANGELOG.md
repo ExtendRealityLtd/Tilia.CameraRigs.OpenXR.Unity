@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.0.2...v1.1.0) (2025-06-05)
+
+#### Features
+
+* **package.json:** add Samples~ reference to files array ([a7298e0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/commit/a7298e0bda9975a266b35171861451d3d5a99729))
+  > This is why the samples aren't working, they need to be referenced in the files array.
+
 ### [1.0.2](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.0.1...v1.0.2) (2025-06-05)
 
 #### Bug Fixes
