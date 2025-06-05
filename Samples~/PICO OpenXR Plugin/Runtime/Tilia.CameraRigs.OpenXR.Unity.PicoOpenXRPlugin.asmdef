@@ -1,0 +1,18 @@
+{
+    "name": "Tilia.CameraRigs.OpenXR.Unity.PicoOpenXRPlugin",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fb028fe22e6301f45bc4d74d8a857779",
+        "GUID:d1451cc2aec4ed743adcac8be3b46381",
+        "GUID:4847341ff46394e83bb78fbd0652937e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
