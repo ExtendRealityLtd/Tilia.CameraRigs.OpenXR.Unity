@@ -39,6 +39,23 @@
         "com.unity.xr.arfoundation": "4.2.10",
         "com.unity.xr.openxr": "1.13.2"
     },
+    "samples": [
+        {
+            "displayName": "Pico OpenXR Plugin",
+            "description": "Extensions for use with the Pico OpenXR Plugin package",
+            "path": "Samples~/PICO OpenXR Plugin"
+        },
+        {
+            "displayName": "Unity OpenXR Meta",
+            "description": "Extensions for use with the Unity OpenXR Meta Plugin package",
+            "path": "Samples~/Unity OpenXR Meta"
+        },
+        {
+            "displayName": "VIVE OpenXR Plugin",
+            "description": "Extensions for use with the Vive OpenXR Plugin package",
+            "path": "Samples~/VIVE OpenXR Plugin"
+        }
+    ],
     "files": [
         "*.md",
         "*.meta",
