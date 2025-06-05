@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.0.0...v1.0.1) (2025-06-05)
+
+#### Bug Fixes
+
+* **package.json:** add missing samples section ([df86bd7](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/commit/df86bd7cdfabfdad9d95e21881f23815a3ff94df))
+  > The samples need defining in the package.json otherwise they do not show up in the Unity Package Manager.
+
 ## 1.0.0 (2025-06-05)
 
 #### Features
