@@ -1,0 +1,18 @@
+{
+    "name": "Tilia.CameraRigs.OpenXR.Unity.ViveOpenXRPlugin",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fb028fe22e6301f45bc4d74d8a857779",
+        "GUID:d0a204fb2c62e9f4caca92f1c1e8c06b",
+        "GUID:4847341ff46394e83bb78fbd0652937e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

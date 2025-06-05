@@ -1,7 +1,7 @@
 [![Tilia logo][Tilia-Image]](#)
 
-> ### Tilia {scope} {feature} {platform?}
-> {Description of feature}.
+> ### CameraRigs -> OpenXR
+> A camera rig prefab utilizing the OpenXR Framework for the Unity software.
 
 [![Release][Version-Release]][Releases]
 [![License][License-Badge]][License]
@@ -9,9 +9,9 @@
 
 ## Introduction
 
-{Introduction into the purpose of the feature.}
+The OpenXR camera rig prefab provides a basis for a spatial camera rig that tracks a HMD and up to two controllers (left/right) utilizing the [OpenXR Framework] within the [Unity] software.
 
-> **Requires** {platform and minimum version number}.
+> **Requires** the Unity software version `2022.3.62f1` (or above).
 
 ## Getting Started
 
@@ -35,9 +35,9 @@ Please refer to the Extend Reality [Code of Conduct].
 
 Code released under the [MIT License][License].
 
-[License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}.svg
-[Version-Release]: https://img.shields.io/github/release/ExtendRealityLtd/Tilia.{scope}.{feature}.{platform?}.svg
-[project coding conventions]: https://github.com/ExtendRealityLtd/.github/blob/master/CONVENTIONS/{project_type}
+[License-Badge]: https://img.shields.io/github/license/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity.svg
+[Version-Release]: https://img.shields.io/github/release/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity.svg
+[project coding conventions]: https://github.com/ExtendRealityLtd/.github/blob/master/CONVENTIONS/UNITY3D.md
 
 [Tilia-Image]: https://raw.githubusercontent.com/ExtendRealityLtd/related-media/main/github/readme/tilia.png
 [License]: LICENSE.md
@@ -49,3 +49,6 @@ Code released under the [MIT License][License].
 [Releases]: ../../releases
 [Contributing guidelines]: https://github.com/ExtendRealityLtd/.github/blob/master/CONTRIBUTING.md
 [Code of Conduct]: https://github.com/ExtendRealityLtd/.github/blob/master/CODE_OF_CONDUCT.md
+
+[Unity]: https://unity3d.com/
+[OpenXR Framework]: https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.13/manual/index.html
