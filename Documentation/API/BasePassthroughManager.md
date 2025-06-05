@@ -7,6 +7,8 @@ The base class for a Passthrough Manager
 * [Inheritance]
 * [Namespace]
 * [Syntax]
+* [Properties]
+  * [SourceManager]
 * [Methods]
   * [ActivatePassthrough()]
   * [DeactivatePassthrough()]
@@ -28,6 +30,18 @@ The base class for a Passthrough Manager
 
 ```
 public abstract class BasePassthroughManager : MonoBehaviour
+```
+
+### Properties
+
+#### SourceManager
+
+The source [PassthroughManager] that is controlling this processor.
+
+##### Declaration
+
+```
+public PassthroughManager SourceManager { get; set; }
 ```
 
 ### Methods
@@ -52,12 +66,14 @@ Deactivates the passthrough mode if available.
 public abstract void DeactivatePassthrough()
 ```
 
-[PassthroughManager]: PassthroughManager.md
 [PassthroughProcessor]: PassthroughProcessor.md
 [Tilia.CameraRigs.OpenXR]: README.md
+[PassthroughManager]: PassthroughManager.md
 [Inheritance]: #Inheritance
 [Namespace]: #Namespace
 [Syntax]: #Syntax
+[Properties]: #Properties
+[SourceManager]: #SourceManager
 [Methods]: #Methods
 [ActivatePassthrough()]: #ActivatePassthrough
 [DeactivatePassthrough()]: #DeactivatePassthrough

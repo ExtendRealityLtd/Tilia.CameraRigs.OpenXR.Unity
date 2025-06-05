@@ -7,8 +7,6 @@ A base class to provide custom processors for vendor OpenXR extensions.
 * [Inheritance]
 * [Namespace]
 * [Syntax]
-* [Properties]
-  * [SourceManager]
 * [Methods]
   * [ActivatePassthrough()]
   * [ActivatePassthroughLogic()]
@@ -25,6 +23,10 @@ A base class to provide custom processors for vendor OpenXR extensions.
 * [BasePassthroughManager]
 * PassthroughProcessor
 
+##### Inherited Members
+
+[BasePassthroughManager.SourceManager]
+
 ##### Namespace
 
 * [Tilia.CameraRigs.OpenXR]
@@ -33,18 +35,6 @@ A base class to provide custom processors for vendor OpenXR extensions.
 
 ```
 public abstract class PassthroughProcessor : BasePassthroughManager
-```
-
-### Properties
-
-#### SourceManager
-
-The source [PassthroughManager] that is controlling this processor.
-
-##### Declaration
-
-```
-public PassthroughManager SourceManager { get; set; }
 ```
 
 ### Methods
@@ -122,15 +112,13 @@ protected virtual void SetSourceManagerState(bool state)
 | System.Boolean | state | n/a |
 
 [BasePassthroughManager]: BasePassthroughManager.md
+[BasePassthroughManager.SourceManager]: BasePassthroughManager.md#Tilia_CameraRigs_OpenXR_BasePassthroughManager_SourceManager
 [Tilia.CameraRigs.OpenXR]: README.md
-[PassthroughManager]: PassthroughManager.md
 [BasePassthroughManager.ActivatePassthrough()]: BasePassthroughManager.md#Tilia_CameraRigs_OpenXR_BasePassthroughManager_ActivatePassthrough
 [BasePassthroughManager.DeactivatePassthrough()]: BasePassthroughManager.md#Tilia_CameraRigs_OpenXR_BasePassthroughManager_DeactivatePassthrough
 [Inheritance]: #Inheritance
 [Namespace]: #Namespace
 [Syntax]: #Syntax
-[Properties]: #Properties
-[SourceManager]: #SourceManager
 [Methods]: #Methods
 [ActivatePassthrough()]: #ActivatePassthrough
 [ActivatePassthroughLogic()]: #ActivatePassthroughLogic

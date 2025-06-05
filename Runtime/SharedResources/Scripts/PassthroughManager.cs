@@ -10,6 +10,10 @@ namespace Tilia.CameraRigs.OpenXR
     public abstract class BasePassthroughManager : MonoBehaviour
     {
         /// <summary>
+        /// The source <see cref="PassthroughManager"/> that is controlling this processor.
+        /// </summary>
+        public PassthroughManager SourceManager { get; set; }
+        /// <summary>
         /// Activates the passthrough mode if available.
         /// </summary>
         public abstract void ActivatePassthrough();
@@ -85,6 +89,7 @@ namespace Tilia.CameraRigs.OpenXR
             ApplyCameraSettings();
             foreach (BasePassthroughManager processor in passthroughManagers)
             {
+                processor.SourceManager = this;
                 processor.ActivatePassthrough();
             }
             ToggleARFoundationPassthrough(true);
@@ -98,6 +103,7 @@ namespace Tilia.CameraRigs.OpenXR
             cachedProcessPassthroughState = ProcessCameraManager;
             foreach (BasePassthroughManager processor in passthroughManagers)
             {
+                processor.SourceManager = this;
                 processor.DeactivatePassthrough();
             }
             ToggleARFoundationPassthrough(false);

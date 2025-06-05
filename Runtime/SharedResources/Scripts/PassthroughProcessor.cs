@@ -5,11 +5,6 @@ namespace Tilia.CameraRigs.OpenXR
     /// </summary>
     public abstract class PassthroughProcessor : BasePassthroughManager
     {
-        /// <summary>
-        /// The source <see cref="PassthroughManager"/> that is controlling this processor.
-        /// </summary>
-        public PassthroughManager SourceManager { get; set; }
-
         /// <inheritdoc/>
         public override void ActivatePassthrough()
         {

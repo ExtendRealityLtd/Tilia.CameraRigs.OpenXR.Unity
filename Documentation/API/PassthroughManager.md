@@ -31,6 +31,10 @@ Manages the state of camera passthrough on the device.
 * [BasePassthroughManager]
 * PassthroughManager
 
+##### Inherited Members
+
+[BasePassthroughManager.SourceManager]
+
 ##### Namespace
 
 * [Tilia.CameraRigs.OpenXR]
@@ -183,6 +187,7 @@ protected virtual void ToggleARFoundationPassthrough(bool state)
 | --- | --- | --- |
 | System.Boolean | state | n/a |
 
+[BasePassthroughManager.SourceManager]: BasePassthroughManager.md#Tilia_CameraRigs_OpenXR_BasePassthroughManager_SourceManager
 [Tilia.CameraRigs.OpenXR]: README.md
 [PassthroughManager]: PassthroughManager.md
 [BasePassthroughManager]: BasePassthroughManager.md
