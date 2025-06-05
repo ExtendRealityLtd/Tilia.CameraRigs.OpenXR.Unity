@@ -516,6 +516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7455428504947032323}
   - component: {fileID: 8889747625056509988}
+  - component: {fileID: 819395592881820379}
   - component: {fileID: 2985909222468300842}
   - component: {fileID: 2087740038620856229}
   - component: {fileID: 7865251902701735970}
@@ -564,6 +565,22 @@ MonoBehaviour:
   m_TrackingOriginMode: 1
   m_TrackingSpace: 1
   m_CameraYOffset: 0
+--- !u!114 &819395592881820379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3425589306487620505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175ec8eefb0e646438b7419a1d67381a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetCamera: {fileID: 3908322436372368396}
+  cameraManager: {fileID: 1707773967105499439}
+  processCameraManager: 1
+  passthroughManagers: []
 --- !u!114 &2985909222468300842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -698,7 +715,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3908322436372368395}
-  - component: {fileID: 7822650767291034633}
   - component: {fileID: 3908322436372368396}
   - component: {fileID: 6941295451394307198}
   - component: {fileID: 3908322436372368397}
@@ -728,22 +744,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1509010003780451918}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7822650767291034633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3908322436372368398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 175ec8eefb0e646438b7419a1d67381a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetCamera: {fileID: 3908322436372368396}
-  cameraManager: {fileID: 1707773967105499439}
-  processCameraManager: 1
-  passthroughManagers: []
 --- !u!20 &3908322436372368396
 Camera:
   m_ObjectHideFlags: 0
@@ -826,7 +826,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   nodeType: 3
-  passthroughManager: {fileID: 7822650767291034633}
+  passthroughManager: {fileID: 819395592881820379}
 --- !u!81 &3908322436372368397
 AudioListener:
   m_ObjectHideFlags: 0
