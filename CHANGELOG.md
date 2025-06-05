@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.0.1...v1.0.2) (2025-06-05)
+
+#### Bug Fixes
+
+* **Samples~:** remove spaces from samples path names ([da1caf7](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/commit/da1caf7e1ceaa344d8d6012ac9b03bcb97f81de2))
+  > The samples are showing as having 0kb contents in the Unity Package Manager and this is most likely due to the contents not being found because there are spaces in the path names.
+
 ### [1.0.1](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.0.0...v1.0.1) (2025-06-05)
 
 #### Bug Fixes
