@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.2.1](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.2.0...v1.2.1) (2025-06-05)
+
+#### Bug Fixes
+
+* **PassthroughProcessor:** ensure source manager logic is called ([268409e](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/commit/268409ebd13ebfb410ac83a6ed2d4d728617e55f))
+  > The SourceManager in the passthrough manager is supposed to allow an extended passthrough processor to halt the AR Foundation processing done by the Passthrough Manager. However, this logic was not being set so it was never being limited.
+  > 
+  > This has now been fixed so the passthrough processors do actually now control the state of the SourceManager.
+
 ## [1.2.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.1.0...v1.2.0) (2025-06-05)
 
 #### Features
