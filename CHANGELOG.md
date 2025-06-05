@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.1.0...v1.2.0) (2025-06-05)
+
+#### Features
+
+* **Prefabs:** promote passthrough manager to top level gameobject ([22f38ca](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/commit/22f38cafb3bb86d895d0cbfec68836fae56e1ca0))
+  > The PassthroughManager component has been relocated to the top level GameObject on the prefab rather than being nested within the HeadCamera so it's more visible and easier to access.
+
 ## [1.1.0](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.0.2...v1.1.0) (2025-06-05)
 
 #### Features
