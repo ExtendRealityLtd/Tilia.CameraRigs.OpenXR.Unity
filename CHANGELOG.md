@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.2](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.2.1...v1.2.2) (2025-09-09)
+
+#### Bug Fixes
+
+* **ProfileManager:** ensure switch method is agnostic ([e3c237e](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/commit/e3c237efeab39f9e7a497156a2942c672f7258d2))
+  > The Samples profile managers for each heaqdset all had a reference to Meta in their `SwitchToProfile` method, which is confusing so this has been updated so there is no reference to `Meta` in the method names at all now.
+
 ### [1.2.1](https://github.com/ExtendRealityLtd/Tilia.CameraRigs.OpenXR.Unity/compare/v1.2.0...v1.2.1) (2025-06-05)
 
 #### Bug Fixes
