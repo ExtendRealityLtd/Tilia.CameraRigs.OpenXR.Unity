@@ -15,7 +15,7 @@ namespace Tilia.CameraRigs.OpenXR.PicoOpenXRPlugin.Config
         }
 
         [MenuItem(menuRoot + menuSwitchPrefix + "Pico" + menuSwitchSuffix)]
-        public static void SwitchToMetaProfile()
+        public static void SwitchToProfile()
         {
             SwitchProfile<OpenXRProfileConfig>(_assetPath);
         }
