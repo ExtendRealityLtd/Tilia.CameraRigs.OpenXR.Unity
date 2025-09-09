@@ -15,7 +15,7 @@ namespace Tilia.CameraRigs.OpenXR.MetaOpenXRPlugin.Config
         }
 
         [MenuItem(menuRoot + menuSwitchPrefix + "Meta" + menuSwitchSuffix)]
-        public static void SwitchToMetaProfile()
+        public static void SwitchToProfile()
         {
             SwitchProfile<OpenXRProfileConfig>(_assetPath);
         }
